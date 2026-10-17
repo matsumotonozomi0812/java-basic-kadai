@@ -6,10 +6,12 @@ public class DictionaryExec_Chapter21 {
 		Dictionary_Chapter21 fruitcall = new Dictionary_Chapter21();
 		fruitcall.dictionaryInput();
 		
-		fruitcall.dictionaryOutput("apple");
-		fruitcall.dictionaryOutput("banana");
-		fruitcall.dictionaryOutput("grape");
-		fruitcall.dictionaryOutput("orange");
+		String[] fruitarray = {"apple","banana","grape","orange"};
+		
+		for (String fruit : fruitarray ) {
+			fruitcall.dictionaryOutput(fruit);
+		}
+
 	}
 
 }

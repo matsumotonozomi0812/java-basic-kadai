@@ -19,9 +19,9 @@ public class Dictionary_Chapter21 {
 	}
 	public void dictionaryOutput(String word) {
 		if (dictionary.containsKey(word)) {
-			System.out.println(dictionary.get(word));
+			System.out.println(word + "の意味は" + dictionary.get(word));
 		}else {
-			System.out.println(word + "の意味は辞書に追加されていません。");			
+			System.out.println(word + "は辞書に存在しません");			
 		}
 	 
 	}
